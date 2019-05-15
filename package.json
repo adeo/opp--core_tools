@@ -1,0 +1,30 @@
+{
+  "name": "@core/tools",
+  "version": "0.0.1",
+  "description": "Tools",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lmru.adeo.com:publication-bricks/opus/npm/core_tools.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.lmru.adeo.com/repository/npm-hosted/"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- --recursive --reporter spec --check-leaks --exit",
+    "coverage": "npm test && http-server coverage/lcov-report -o -c-1"
+  },
+  "keywords": [],
+  "author": "llevkin",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "http-server": "^0.11.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^5.2.0",
+    "rewiremock": "^3.13.4",
+    "sinon": "^7.3.0"
+  }
+}
