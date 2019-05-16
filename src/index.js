@@ -1,1 +1,2 @@
-exports.timer = require('./timer');
+exports.timer  = require('./timer');
+exports.number = require('./number');

@@ -1,5 +1,5 @@
 const { assert }  = require('chai');
-const { timer } = require('./../');
+const { timer, number } = require('./../');
 
 describe('Tools', function() {
 
@@ -15,6 +15,14 @@ describe('Tools', function() {
 
         it('immediate', async () => {
             await timer.immediate();
+        });
+
+    });
+
+    describe('number', function() {
+
+        it('toPercet', () => {
+            assert(number.toPercent(0.05 / 4) === 1.25);
         });
 
     });

@@ -1,0 +1,1 @@
+module.exports.toPercent = value => Number((value * 100).toFixed(2));
