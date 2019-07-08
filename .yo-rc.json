@@ -4,7 +4,7 @@
       "name": "@core/tools",
       "description": "Tools",
       "version": "0.0.1",
-      "repository": "git@gitlab.lmru.adeo.com:publication-bricks/opus/npm/core_tools.git",
+      "repository": "git@github.com:adeo/npm_core_tools.git",
       "main": "src/index.js",
       "author": "llevkin",
       "license": "ISC"

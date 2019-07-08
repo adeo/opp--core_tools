@@ -5,10 +5,10 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.lmru.adeo.com:publication-bricks/opus/npm/core_tools.git"
+    "url": "git@github.com:adeo/npm_core_tools.git"
   },
   "publishConfig": {
-    "registry": "https://nexus.lmru.adeo.com/repository/npm-hosted/"
+    "registry": "https://adeo.jfrog.io/adeo/api/npm/npm/"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- --recursive --reporter spec --check-leaks --exit",
