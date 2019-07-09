@@ -31,6 +31,7 @@ describe('Tools', function() {
 
         it('folder', () => {
             let result = req.folder(`${__dirname}/../src`);
+            console.log(result);
             assert(result.number === number);
             assert(result.timer === timer);
             assert(result.require === req);
