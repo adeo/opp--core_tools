@@ -1,6 +1,6 @@
 {
   "name": "@core/tools",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Tools",
   "main": "src/index.js",
   "repository": {
