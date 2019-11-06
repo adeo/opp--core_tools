@@ -1,11 +1,11 @@
 # @core/tools
-Helpers toolkit, provide some often use functions. 
 
 #### Why:
 Because it's have not anywhere... 
 
 #### What:
-Look up on description, and this is one of dependenies for [@core/core](https://github.com/adeo/opp--core_core) module.
+Helpers toolkit, provide some often use functions. 
+This is one of dependenies for [@core/core](https://github.com/adeo/opp--core_core) module.
 
 #### Basic usage:
 ```javascript
