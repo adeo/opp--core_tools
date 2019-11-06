@@ -5,7 +5,7 @@ Helpers toolkit, provide some often use functions.
 Because it's have not anywhere... 
 
 #### What:
-Look up on description, and this is one of dependenies for @core/core module.
+Look up on description, and this is one of dependenies for [@core/core](https://github.com/adeo/opp--core_core) module.
 
 #### Basic usage:
 ```javascript
